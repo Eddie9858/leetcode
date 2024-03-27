@@ -8,3 +8,4 @@ class Solution:
         return ''.join(merged_part) + word1[shorter_len:] + word2[shorter_len:]
 
 # https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
+# https://leetcode.com/problems/merge-strings-alternately/submissions/1215093484?envType=study-plan-v2&envId=leetcode-75
