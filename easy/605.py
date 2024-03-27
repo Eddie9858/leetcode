@@ -2,7 +2,9 @@ class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         
         m = 0
-
+        # divide the case in three 
+        # when the index is 0, end, middle
+        # there is better solution 
         for i in range(len(flowerbed)):
             if i < (len(flowerbed)-1) and i > 0:
                 if flowerbed[i-1] == 0 and flowerbed[i+1] == 0 and flowerbed[i] == 0:
