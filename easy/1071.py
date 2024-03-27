@@ -2,6 +2,14 @@ class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         # find GCD
         gcd_length = math.gcd(len(str1), len(str2))
+
+        # GCD algorithm
+        # def gcd(a: int, b: int) -> int:
+        #     while b:
+        #         a, b = b, a % b
+        #     return a
+
+        
         
         potential_gcd_str = str1[:gcd_length]
       
