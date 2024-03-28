@@ -1,13 +1,18 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
+        # list for vowels 
+        # also can try below but slower
+        # vowels = sets("aeiou") 
         vowels = ["a", "e", "i", "o", "u"]
         s = list(s)
+        
+        # make an empty list to store a index of found vowels in given str
         n_list = []
 
         for i, word in enumerate(s):
             if word.lower() in vowels:
                 n_list.append(i)
-
+         
         for i in range(len(n_list)//2):
             s[n_list[i]], s[n_list[-i-1]] = s[n_list[-i-1]], s[n_list[i]]
 
