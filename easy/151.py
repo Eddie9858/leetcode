@@ -1,7 +1,10 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
+        # split and make an list
         words = list(s.split(" "))
+        # remove an empty space
         words = [word for word in words if word != ""]
+        # use python reverse
         words.reverse()
 
         return ' '.join(words)
