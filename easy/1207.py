@@ -12,6 +12,9 @@ class Solution(object):
         return len(element_counts.values()) == len(set(element_counts.values()))
             
 # https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75
-# https://leetcode.com/problems/unique-number-of-occurrences/submissions/1227562028?envType=study-plan-v2&envId=leetcode-75
+# https://leetcode.com/problems/unique-number-of-occurrences/submissions/1227563120?envType=study-plan-v2&envId=leetcode-75
+
+
+
 
 
