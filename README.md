@@ -1,2 +1,2 @@
 # leetcode
-leetcode_solution
+test leetcode_solution
